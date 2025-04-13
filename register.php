@@ -78,7 +78,7 @@ try {
 } catch (PDOException $e) {
     echo "<script>
             alert('Connection failed: " . addslashes($e->getMessage()) . "');
-            window.location.href = 'index.php';
+            window.location.href = 'index.html';
           </script>";
 }
 ?>
