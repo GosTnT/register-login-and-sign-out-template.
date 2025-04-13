@@ -12,6 +12,7 @@
       justify-content: center;
       align-items: center;
       height: 100vh;
+      margin: 0;
     }
     .container {
       background: white;
@@ -19,7 +20,7 @@
       border-radius: 12px;
       box-shadow: 0 5px 20px rgba(0,0,0,0.1);
       width: 100%;
-      max-width: 400px;
+      max-width: 450px;
     }
     .tabs {
       display: flex;
@@ -82,11 +83,13 @@
 
   <!-- Formulário de Registro -->
   <form id="registerForm" action="register.php" method="POST">
-    <input type="text" name="firstname" placeholder="Nome completo" required>
+    <input type="text" name="firstname" placeholder="Nome" required>
+    <input type="text" name="lastname" placeholder="Sobrenome" required>
     <input type="email" name="email" placeholder="Email" required>
+    <input type="text" name="mobile" placeholder="Telefone" required>
     <input type="password" name="password" placeholder="Senha" required>
-    <input type="password" name="confirm_password" placeholder="Confirmar senha" required>
-    <button type="submit" name="register">Registrar</button>
+    <input type="password" name="password2" placeholder="Confirmar senha" required>
+    <button type="submit" name="submit">Registrar</button>
   </form>
 </div>
 
