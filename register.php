@@ -1,9 +1,9 @@
 <?php
 // Database connection (assuming MySQL with PDO)
-$servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "register";
+$servername = "d5c0v.h.filess.io:61001";
+$username = "fulls_lawmaybehe";
+$password = "bf66f0e48de96fca850685dbccfbc2c96d6c58a8";
+$dbname = "fulls_lawmaybehe";
 
 try {
     $conn = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);
