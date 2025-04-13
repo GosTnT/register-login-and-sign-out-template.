@@ -61,7 +61,7 @@ try {
             // Show success message and redirect to index.php
             echo "<script>
                     alert('Registration successful!');
-                    window.location.href = 'index.php';
+                    window.location.href = 'index.html';
                   </script>";
         } else {
             // Convert the PHP array of errors to a JavaScript array
@@ -71,7 +71,7 @@ try {
                     errors.forEach(function(error) {
                         alert(error);
                     });
-                    window.location.href = 'index.php'; // Redirect to index.php after displaying errors
+                    window.location.href = 'index.html'; // Redirect to index.php after displaying errors
                   </script>";
         }
     }
